@@ -10,6 +10,7 @@ applications:
   - tracker-circuit-breaker-dashboard
   - tracker-sso
   - tracker-amqp
+  - tracker-config-server
   env:
       GRANT_TYPE: client_credentials
 #      SECURITY_USER_NAME: actuator
