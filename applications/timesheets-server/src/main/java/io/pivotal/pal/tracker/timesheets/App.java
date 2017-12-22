@@ -18,7 +18,7 @@ import java.util.TimeZone;
 @EnableResourceServer
 @EnableCircuitBreaker
 @EnableEurekaClient
-@SpringBootApplication(exclude= RabbitAutoConfiguration.class)
+@SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.timesheets", "io.pivotal.pal.tracker.restsupport"})
 public class App {
 
